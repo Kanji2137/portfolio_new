@@ -1,0 +1,126 @@
+.container-skills {
+    margin: 0 auto;
+    display: flow-root;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+.section-skills {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+.introduction-skills {
+    width: 37%;
+    margin-left: 18%;
+    float: left;
+    min-height: 400px;
+    position: relative;
+    z-index: 1;
+}
+.introduction-skills h1 {
+    line-height: 1.6;
+}
+.introduction-skills h3 {
+    padding-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    color: #49393f;
+}
+.introduction-skills a {
+    margin-top: 40px;
+}
+.container-websites {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.box-skill {
+    width: 350px;
+    margin-top: 50px;
+    padding-bottom: 20px;
+    display: inline-block;
+    background-color: #fff;
+    box-shadow: 0px 0px 51px 1px rgba(12, 188, 255, 0.35);
+    border-radius: 25px;
+    position: relative;
+}
+.box-skill:first-child {
+    transform: rotate(-1deg);
+}
+.box-skill:nth-child(3){
+    transform: rotate(1deg);
+}
+.img-websites {
+    display: flex;
+    margin: 25px;
+}
+.img-websites img{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.title-skill {
+    width: 100%;
+    text-align: center;
+}
+.description-skill {
+    width: 80%;
+    margin: 25px auto 25px auto;
+}
+.icon-skill {
+    font-size: 250%;
+    margin: 20px auto 0 auto;
+    display: block;
+}
+.box-skill .btn {
+    display: table;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 1150px){
+    .container-websites{
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    .introduction-skills {
+        width: 55%;
+        margin: 0 auto;
+        float: none;
+    }
+}
+@media only screen and (max-width: 1000px){
+    .container-websites{
+        max-width: 500px;
+    }
+    .introduction-skills {
+        margin: 0 auto;
+        float: none;
+    }
+}
+@media only screen and (max-width: 900px){
+    .introduction-skills {
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 620px){
+    .introduction-skills {
+        width: 75%;
+    }
+    .container-websites {
+        max-width: 70%;
+    }
+}
+@media only screen and (max-width: 500px){
+    .container-websites {
+        max-width: 90%;
+    }
+}
+@media only screen and (max-width: 400px){
+    .box-skill {
+        width: 300px;
+    }
+}
+@media only screen and (max-width: 320px){
+    .box-skill {
+        width: 280px;
+    }
+}

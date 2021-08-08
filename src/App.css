@@ -1,38 +1,107 @@
-.App {
-  text-align: center;
+/*------------------------------------------------------*/
+/*BASIC SETUP*/
+/*------------------------------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html,
+body {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif ;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+
+.clearfix { zoom:1 }
+.clearfix:after{
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/*------------------------------------------------------*/
+/*REUSABLE COMPONENTS*/
+/*------------------------------------------------------*/
+
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
 }
 
-.App-link {
-  color: #61dafb;
+@media only screen and (max-width: 1200px){
+    section {
+        width: auto;
+    }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.box{
+    padding: 1%;
+}
+
+/*-----BUTTONS------*/
+.btn:link,
+.btn:visited,
+input[type=submit] {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+
+.btn-full:link,
+.btn-full:visited,
+input[type=submit] {
+    background-color: #fa9370;
+    background-image: linear-gradient(to top, rgba(225, 152, 25, 1), rgba(255, 200, 0, 1));
+    color: #fff;
+    margin-right: 15px;
+    box-shadow: 3px 32px 48px -12px rgb(255 162 0);
+}
+
+.btn:hover,
+.btn:active {
+    opacity: 0.5;
+}
+
+h1,
+h2,
+h3{
+    font-weight: 300;
+}
+h1 {
+    line-height: 85px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #000000;
+    font-size: 260%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
+
+.full-colors {
+    background: -webkit-linear-gradient( rgb(255 153 0), rgba(255, 200, 0, 1));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.long-word {
+    letter-spacing: 9px;
+}
+.blob {
+    width: 500px;
+    position: absolute;
+    transform: translate(-50%, -50%);
 }

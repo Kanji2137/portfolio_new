@@ -1,0 +1,84 @@
+.main-nav {
+    float: right;
+    list-style: none;
+    margin: 25px 0 25px 0;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 80px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 8px 0;
+    color: #000000;
+    text-decoration: none;
+    font-size: 85%;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s opacity 0.3s color 0.2s;
+}
+.main-nav li a:hover {
+    color: #40e0d0;
+}
+.main-nav li:last-child a:hover {
+    color: #fff;
+}
+.main-nav li .btn:link,
+.main-nav li .btn:visited,
+input[type=submit] {
+    color: #fff;
+    padding: 11px 45px;
+    margin-left: 60px;
+    box-shadow: 3px 32px 48px -12px rgb(255 162 0);
+    border-bottom: none;
+}
+
+@media only screen and (max-width: 800px) {
+    .main-nav li {
+        margin-left: 55px;
+    }
+    .main-nav li .btn:link, .main-nav li .btn:visited, input[type=submit] {
+        margin-left: 15px;
+    }
+    .main-nav li a:link, .main-nav li a:visited {
+        font-size: 80%;
+    }
+}
+
+@media only screen and (max-width: 630px) {
+    .main-nav {
+        float: none;
+    }
+    .main-nav li {
+        margin-left: 40px;
+    }
+    .main-nav li .btn:link, .main-nav li .btn:visited, input[type=submit] {
+        margin-left: 0px;
+    }
+    .main-nav li a:link, .main-nav li a:visited {
+        font-size: 80%;
+    }
+    .main-nav li:nth-child(4) {
+        margin-top: 25px;
+    }
+    .main-nav {
+        margin: 25px 0 0px 0;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .main-nav li {
+        margin-left: 28px;
+        font-size: 90%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .main-nav li {
+        margin-left: 20px;
+        font-size: 80%;
+    }
+}

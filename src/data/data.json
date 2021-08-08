@@ -1,0 +1,27 @@
+{
+  "Home": "I am the junior front end developer. I love programming because it's for me like math, you can see result immediately. You solve problems and feel like you ate candy. Will I ever get fed up with these wonderful candies? I doubt it.",
+  "Skills": "I created some websites but I am still learning and when I see my last website I think \"ok it's good but I can do this better\"",
+  "SkillSet": [
+    {
+      "id": 1,
+      "Name": "REACT",
+      "Description": "I like do this, if you want to see my works you can visit my github 3>",
+      "NameIcon": "logo-react",
+      "SrcImg": "./img/pezetStory.png"
+    },
+    {
+      "id": "2",
+      "Name": "CSS",
+      "Description": "I like do this, if you want to see my works you can visit my github 3>",
+      "NameIcon": "logo-css3",
+      "SrcImg": "./img/myInspirations.png"
+    },
+    {
+      "id": "3",
+      "Name": "HTML",
+      "Description": "I like do this, if you want to see my works you can visit my github 3>",
+      "NameIcon": "logo-html5",
+      "SrcImg": "./img/myPortfolio.png"
+    }
+  ]
+}

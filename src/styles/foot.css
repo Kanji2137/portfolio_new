@@ -1,0 +1,48 @@
+.foot{
+    position: relative;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+}
+.contact-foot {
+    margin-top: 25px;
+    margin-left: 100px;
+    padding-bottom: 25px;
+    position: absolute;
+    float: left;
+    z-index: 1;
+    background: transparent;
+}
+.contact-foot h3{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600;
+    font-size: 18.72px;
+    color: #000;
+}
+.mail{
+    color:#212121;
+    transition: all 0.2s ease 0s;
+    cursor: pointer;
+    margin-left: 30px;
+}
+.mail:hover{
+    color:#efbe03
+}
+
+@media only screen and (max-width: 730px) {
+    .contact-foot {
+        margin-left: 0;
+    }
+}
+@media only screen and (max-width: 460px) {
+    .foot {
+        width: auto;
+        margin-left: 10px;
+        margin-right: 0;
+        height: auto;
+    }
+    .mail {
+        margin-left: 7px;
+    }
+}
