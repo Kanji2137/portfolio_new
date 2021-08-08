@@ -1,6 +1,6 @@
 #portfolio 2021
 
-link to demo: 
+link to demo: https://kanji2021.netlify.app/
 
 to install you need have react js,
 
