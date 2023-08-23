@@ -7,19 +7,19 @@
       "Name": "REACT",
       "Description": "I like do this, if you want to see my works you can visit my github 3>",
       "NameIcon": "logo-react",
-      "SrcImg": "./img/pezetStory.png"
+      "SrcImg": "./img/london-bike-hub.png"
     },
     {
       "id": "2",
       "Name": "CSS",
-      "Description": "I like do this, if you want to see my works you can visit my github 3>",
+      "Description": "I enjoy doing this activity, and if you're interested in checking out my projects, feel free to visit my GitHub!",
       "NameIcon": "logo-css3",
-      "SrcImg": "./img/myInspirations.png"
+      "SrcImg": "./img/pezetStory.png"
     },
     {
       "id": "3",
       "Name": "HTML",
-      "Description": "I like do this, if you want to see my works you can visit my github 3>",
+      "Description": "This is an activity I find pleasure in. If you're interested in my creations, my GitHub profile is accessible!",
       "NameIcon": "logo-html5",
       "SrcImg": "./img/myPortfolio.png"
     }
